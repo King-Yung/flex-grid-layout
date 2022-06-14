@@ -1,0 +1,107 @@
+*{
+    display: block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width:auto;
+}
+@media (max-width: 375px){
+    body{
+        background-color: hsla(0, 0%, 100%, 0.75);   
+    }
+}
+@media (min-width: 768px) and (max-width: 1440px){
+    body{
+        background-color: hsl(0 0% 95%);        
+    }
+}
+
+
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    padding-bottom: 10px;
+    
+}
+.content h3{
+    color: hsl(0, 0%, 95%);
+    font-size: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.content{
+    display: flex;
+    height: auto;
+}
+.con-up{
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+}
+.con-mid{
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+}
+.con-down{
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+}
+.con-up button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+    margin: 4px 2px;
+}
+.con-mid button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+    margin: 4px 2px;
+}
+.con-down button{
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-radius: 12px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+    margin: 4px 2px;
+}
+.flex-button{
+    background-color: black;
+    color: hsl(185, 18%, 86%);
+    text-align: center;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+    margin: 4px 2px;
+}
